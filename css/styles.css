@@ -166,6 +166,16 @@ img {
 .hero {
   background-color: #2e2f42;
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/background/people-office.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 1440px;
+  margin: 0 auto;
+  block-size: auto;
 }
 .hero-title {
   font-weight: 700;
