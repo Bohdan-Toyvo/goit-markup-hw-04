@@ -173,9 +173,9 @@ img {
     url(../images/background/people-office.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  min-width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
-  block-size: auto;
+  background-size: cover;
 }
 .hero-title {
   font-weight: 700;
