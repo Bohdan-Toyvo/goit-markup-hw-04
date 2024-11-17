@@ -160,7 +160,8 @@ img {
   gap: 40px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contacts-item, .contacts-link {
+.contacts-item,
+.contacts-link {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* #endregion*/
@@ -265,13 +266,13 @@ img {
 .team-item {
   background-color: #fff;
   border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .team-list {
   display: flex;
   gap: 24px;
   justify-content: center;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .team-title {
   margin-bottom: 72px;
@@ -305,7 +306,6 @@ img {
   background-color: #4d5ae5;
   border-radius: 50%;
   justify-content: center;
-  
 }
 .social-links:hover,
 .social-links:focus {
@@ -384,11 +384,9 @@ img {
 .footer-social-media .social-links-list {
   display: flex;
   gap: 16px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-social-media.social-liks-list {
-  display: flex;
-  gap: 16px;
-}
+
 .footer-social-links:hover,
 .footer-social-links:focus {
   background-color: #31d0aa;
